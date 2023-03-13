@@ -1,0 +1,110 @@
+body {
+	background-color:green;
+	}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 450px;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.4);
+	background-color: dodgerblue;
+	right: 450px;
+}
+.header h1 {
+	color: white;
+	padding: 15px;
+}
+.body {
+	flex: 1;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	padding: 20px 30px;
+}
+
+.message {
+	background-color: dodgerblue;
+	padding: 10px;
+	color: white;
+	width: fit-content;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+.user_message {
+	margin-left: auto;
+	background-color: white;
+	color: black;
+}
+.footer form {
+	display: flex;
+}
+form input {
+	flex: 1;
+	height: 40px;
+	border: none;
+	outline: none;
+	padding-left: 5px;
+	font-size: 16px;
+}
+form button {
+	width: 100px;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: dodgerblue;
+	color: white;
+	cursor: pointer;
+}
+form button:hover {
+	background-color: blue;
+	transition: 0.2s ease;
+}
+/*  color is Dark Charcoal for the top navigation */
+div.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+div.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover Its gray  */
+div.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+div.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/* this table th and td will control the border*/
+table, th, td {
+  
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+/* the table only controles with width*/
+table{
+	background-color: white;
+	width: 80%;
+}
+/* The is how I control the tables margins its set to center now*/
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}

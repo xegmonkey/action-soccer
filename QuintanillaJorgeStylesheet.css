@@ -1,0 +1,131 @@
+/* the following ares control the body, h, p, span fonts*/
+
+body {
+	background-color:darkgreen;
+	}
+h1 {
+	color:White;
+	text-align:center;
+	
+	}
+h2	{
+	color:white;
+	text-align: center;
+	
+}
+h3  {
+	font-family:'Times New Roman';
+	font-size:20px;
+}
+h4	{
+	font-family:'Times New Roman';
+	font-size:20px;
+	text-align:center;
+}
+h5	{
+	font-family:'Times New Roman';
+	font-size:20px;
+}
+h6	{
+	font-family:'Times New Roman';
+	font-size:20px;
+}
+p {
+	color: white;
+	font-family:'Times New Roman';
+	font-size:20px;
+	}
+div.p1 {
+	font-family:'Times New Roman';
+	font-size:20px;
+	text-align:center;
+}
+span.boldtext {
+	font-weight:bold;
+	}
+span.italictext {
+	font-style:italic;
+	}
+/*  color is Dark Charcoal for the top navigation */
+div.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+div.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover Its gray  */
+div.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+div.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/* this table th and td will control the border*/
+table, th, td {
+  
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+/* the table only controles with width*/
+table{
+	background-color: white;
+	width: 80%;
+}
+/* The is how I control the tables margins its set to center now*/
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* the following controls were the video is displayed on the page*/
+video {
+  display: block;
+  margin: auto;
+}
+/* the following controls were the audio is displayed on the page*/
+audio {
+  display: block;
+  margin: auto;
+}
+
+/* this controles the message in the about tab*/
+div.mouseover { 
+  color: white;
+  text-align: center;
+  text-decoration:none;
+  font-size: 30px;
+  position: absolute;
+  right: 700px;
+ 
+}
+/* this controlesthe message on the homepage*/
+div.twomouseover {
+  color: white;
+  text-align: center;
+  text-decoration:none;
+  font-size: 30px;
+  position: absolute;
+  right: 550px;
+}
+div.slocation { 
+	text-align: center;
+}
+div.articles {
+	text-align: center;
+}
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
